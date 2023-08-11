@@ -1,0 +1,158 @@
+.spotify .auth-nav {
+    border-bottom: 1px solid #D9DADC;
+}
+
+.spotify .auth-nav .logo {
+    width: 130px;
+    height: 40px;
+}
+
+.spotify .auth-sociaux button,
+.spotify .auth-sociaux a {
+    border-radius: 500px;
+  
+    padding: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.498px;
+    text-transform: uppercase;
+}
+
+.spotify .auth-sociaux button.facebook,
+.spotify .auth-sociaux a.facebook {
+    background: #1877F2;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    color: rgba(255, 255, 255, 0.90);
+}
+.spotify .auth-sociaux button.apple,
+.spotify .auth-sociaux a.apple {
+   
+    border: 1px solid #878787;
+    background: rgba(0, 0, 0, 0.90);
+    color: rgba(255, 255, 255, 0.90);
+}
+.spotify .auth-sociaux button.google,
+.spotify .auth-sociaux a.google {
+   
+    border: 1px solid #878787;
+    background: #ffffff;
+    color: #6A6A6A;
+}
+.spotify .auth-sociaux button.google .fa-google,
+.spotify .auth-sociaux a.google .fa-google{
+   
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.spotify .separator-centered-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 1px; /* 7.143% */
+text-transform: uppercase;
+  }
+  
+  .spotify .separator-centered-text::before,
+  .spotify .separator-centered-text::after {
+    content: '';
+    flex: 1;
+   
+
+    border-bottom: 1px solid #D9DADC;
+  }
+  
+  .spotify .separator-centered-text:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .spotify .separator-centered-text:not(:empty)::after {
+    margin-left: .25em;
+  }
+  .spotify .auth-login label{
+    color: #000;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .spotify .auth-login input{
+    border-radius: 4px;
+    border: 1px solid #878787;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 1px #878787 inset;
+    width: 100%;
+    padding: 13px 14px;
+    color: #6A6A6A;
+  }
+  .spotify .field-icon {
+    float: right;
+    margin-right: 5px;
+    margin-top: -35px;
+    position: relative;
+    z-index: 2;
+  }
+  .spotify .login-submit {
+    border-radius: 500px;
+    background: #1ED760;
+    padding: 15px 33.109px 16px 33px;
+    border: none;
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.498px;
+text-transform: uppercase;
+  }
+  .spotify .forget-password {
+    color: #000;
+    font-family: Helvetica !important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+  }
+  .spotify .sign-up {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+.spotify .remmeber label{
+    color: #000;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+  
+.spotify .remmeber input{
+    accent-color:  #169B45; 
+}
+  
